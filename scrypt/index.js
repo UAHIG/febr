@@ -8,7 +8,7 @@ else {
 
 let quesOne = confirm ('Ваш любимый муж в восторге от праздника 14 февраля?')
 if (quesOne == true) {
-  alert ('Вы не Дашуля - закройте ноут')
+  alert ('Вы не Дашуля - закройте ноут');
 }
 else {
   alert ('Перфекто !! идем дальше. Всего один вопрос')
@@ -16,12 +16,14 @@ else {
 
 let quesTwo = prompt ('Сколько лет же Любимому мужу?', '')
 if (quesTwo == 25) {
-  alert ('Ну прям супер!!! Лови сердечки ')
+  alert ('Ну прям супер!!! Лови сердечки ');
   document.location.href = "https://www.youtube.com/watch?v=yYT2zLjjBrA";
 }
 else if (quesTwo < 25) { 
-  alert ('То малий зовсим !!! Трохи вгору!')
+  alert ('То малий зовсим !!! Трохи вгору!');
+  document.location.reload();
 }
 else {
-  alert ('Та ну нахрен!! Много ж !!')
+  alert ('Та ну нахрен!! Много ж !!');
+  document.location.reload();
 }
